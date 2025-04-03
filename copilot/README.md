@@ -10,7 +10,7 @@ This section is part of the repository Therapy Session Copilot (https://github.c
 # 2025 Case Overview
 The 2025 use case focused on two main aspects:
 
-1. Visual Stimming Analysis: Searching for indicators of specific stemming behavior from an uploaded therapy session recording.
+1. Visual Stimming Analysis: Searching for indicators of specific stimming behavior from an uploaded therapy session recording.
 1. Transcript Analysis: Searching for specific auditory indicators across within the transcript of an uploaded video.
 
 The final project provides an interface for a BCBA to upload a therapy session recording and perform either of the two analyses above, with the aid of a language model. 
