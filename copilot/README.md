@@ -59,8 +59,7 @@ The transcript analysis follows the below steps:
 Some limitations and potential enhancements are outlined below:
 
 **Limitation**: Image and Audio are processed separately, as a video processing model was not accessible in the Azure foundry for our resource group. As a result, some context that relies on the interplay of different modalities is lost.
-
-**Suggested Enhancement**: Use a multi-modal model/service such as the Content Understanding service in AI Foundry to process videos directly.
+\n**Suggested Enhancement**: Use a multi-modal model/service such as the Content Understanding service in AI Foundry to process videos directly.
 
 **Limitation**: Data is not persisted from the analyst sessions, as access to blob storage was causing issues that could not be resolved timely.
 
