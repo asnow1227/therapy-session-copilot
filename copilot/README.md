@@ -39,9 +39,9 @@ The visual stimming analysis follows the below steps:
 
 1. OpenCV is used to process the uploaded video to a series of image files
 1. The image files are passed in batches to GPT 4o model (due to model context limits), along with a system prompt. 
-    * The system prompt tells the model to process the series of frames as images and determine if the patient exhibits any common stimming behaviors. 
+    * The system prompt tells the model to process the series of frames as a video feed and determine if the patient exhibits any common stimming behaviors. 
     * In current demo, the model only analyzes common stimming behaviors. **This can be extended in the future to allow the user to ask the model to observe patient specific behaviors**
-    * The model returns a json output that includes the behaviors observed and their approximate timestamps in the video
+    * The model returns a json output that includes the behaviors observed. Approximate timestamps of these frames in the video is appended to the output.
         * **This output could be stored in the future and used to analyze changes in patient behavior overtime**
 1. The json output from above is passed to GPT 4 model, which provides a summary of the behaviors observed in the video to the analyst on the front end
 
