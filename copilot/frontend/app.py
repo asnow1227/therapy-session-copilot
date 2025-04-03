@@ -161,7 +161,7 @@ def summarize_chatbot(previous_messages):
     Visual Stimming: Staring at lights, moving fingers in front of the eyes, or watching objects spin.
     Chewing or Biting: Chewing on objects, clothing, or oneself.
 
-    Here is an array of json data from every 10 frame snippet of the video. Every frame is taken every .25 seconds.
+    Here is an array of json data from every 10 frame snippet of the video. Every frame is taken every second.
     Summarize the json data and provide a output in the markdown format. Also make sure to note down which part of
     the video in seconds each observation came from.
 
