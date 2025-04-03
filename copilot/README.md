@@ -58,27 +58,22 @@ The transcript analysis follows the below steps:
 # Limitations and Potential Future Enhancements
 Some limitations and potential enhancements are outlined below:
 
-**Limitation**: Image and Audio are processed separately, as a video processing model was not accessible in the Azure foundry for our resource group. As a result, some context that relies on the interplay of different modalities is lost.
-\n**Suggested Enhancement**: Use a multi-modal model/service such as the Content Understanding service in AI Foundry to process videos directly.
+**Limitation**: Image and Audio are processed separately, as a video processing model was not accessible in the Azure foundry for our resource group. As a result, some context that relies on the interplay of different modalities is lost.\
+**Suggested Enhancement**: Use a multi-modal model/service such as the Content Understanding service in AI Foundry to process videos directly.
 
-**Limitation**: Data is not persisted from the analyst sessions, as access to blob storage was causing issues that could not be resolved timely.
-
+**Limitation**: Data is not persisted from the analyst sessions, as access to blob storage was causing issues that could not be resolved timely.\
 **Suggested Enhancement**: Persist the model outputs to use for patient trend analysis, etc.
 
-**Limitation**: Analyses are retrospective.
-
+**Limitation**: Analyses are retrospective.\
 **Suggested Enhancement**: Adapt the code to allow for real time data feeds and analytics
 
-**Limitation**: GPT 4 struggles with identifying visual stimming cues from a series of images.
-
+**Limitation**: GPT 4 struggles with identifying visual stimming cues from a series of images.\
 **Suggested Enhancement**: Further engineer the system prompt used in the current version or test different models such as the Content Understanding Service discussed above.
 
-**Limitation**: Transcript analysis does not include acoustics.
-
+**Limitation**: Transcript analysis does not include acoustics.\
 **Suggested Enhancement**: Integrate acoustic analysis to allow for refined sentiment analysis on audio files.
 
-**Limitation**: The analyses are not refined for specific patients.
-
+**Limitation**: The analyses are not refined for specific patients.\
 **Suggested Enhancement**: Potentially create derivative model deployments that are patient specific and are updated overtime based on analyst feedback and persisted data.
 
 
