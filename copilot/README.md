@@ -19,7 +19,7 @@ The final project provides an interface for a BCBA to upload a therapy session r
 # Tech Stack
 A high level overview of the tech stack is provided below:
 
-** All code is written in python**
+**All code is written in python**
 
 * Front End
     * Streamlit (for demo purposes)
